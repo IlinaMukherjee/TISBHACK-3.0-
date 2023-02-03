@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>volunteer-form</title>
+
+<style>
+	*{
+		margin: 40;
+		padding: 0;
+		font-family: sans-serif;
+
+	}
+	body{
+		margin: 25px 55px;
+	}
+	.myform input{
+		width: 250px;
+		height: 5px;
+		box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+		background: #fff;
+		padding: 20px;
+		margin: 0;
+		text-align: center;
+	}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 20px 80px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+<ul>
+  <li><a class="#home" href="home.html">Home</a></li>
+  <li><a href="form-donor.html">Donors</a></li>
+  <li><a href="form-volunteer.html">Volunteers</a></li>
+  <li><a href="form-ngo.html">NGOs</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+</head>
+<body>
+	<br>
+	<h1 align="center"> Volunteer's Page </h1>
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='home.html';}"></iframe>
+
+
+<form align="center" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeTdUQ7S7-ydrJVaRoi9dm9WiRGSAKZXYdhD-kevFfWh5kxPA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
+	<input type="text" placeholder="Name:" name="entry.1518733805"><br/>
+	<input type="text" placeholder="Email ID: " name="entry.1582312487"><br/>
+	<input type="text" placeholder="Contact Number: " name="entry.1848778557"><br/>
+	<input type="text" placeholder="Will you bring boxes?" name="entry.304661161"><br/>
+	<input type="text" placeholder="Your Base Location: " name="entry.867191332"><br/>
+	<input type="text" placeholder="Usual Availability Time: " name="entry.1614377491"><br/>
+	<input type="number" placeholder="No. of portions you can take:  " name="entry.1096079784"><br/>
+	<br>
+	<input type="submit" value="Submit">
+</form>
+<br>
+<h1 align="center"> Active Volunteer's List </h1>
+
+<p><iframe align="center" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS57BYVOhIaxNDS53e02mYmOcdVJM-LF2_C7x1geI2fc2NhtfpsyM4HpP61H5xbAY17_hUhSBeiAPbc/pubhtml?widget=true&amp;headers=false"  width="1200" height=300 align="center"></iframe></p>
+

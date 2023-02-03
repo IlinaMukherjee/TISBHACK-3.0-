@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>donor-form</title>
+
+<style>
+	*{
+		margin: 20;
+		padding: 0;
+		font-family: sans-serif;
+	}
+	body{
+		margin: 25px 55px;
+	}
+	.myform input{
+		width: 250px;
+		height: 5px;
+		box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+		background: #fff;
+		padding: 20px;
+		margin: 0;
+		text-align: center;
+	}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 20px 80px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+<ul>
+  <li><a class="#home" href="home.html">Home</a></li>
+  <li><a href="form-donor.html">Donors</a></li>
+  <li><a href="form-volunteer.html">Volunteers</a></li>
+  <li><a href="form-ngo.html">NGOs</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+</head>
+<body> <br> <h1 align="center"> Donor's Page </h1>
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='home.html';}"></iframe>
+<br>
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc4oIpL7CVk8-XBFRyiPU4Ij2LPzqJFuQfowlHNoCgdx2x8Dg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform" align="center">
+	<input type="text" placeholder="Name:" name="entry.1700857001"><br/>
+	<input type="text" placeholder="Email ID: " name="entry.863997515"><br/>
+	<input type="text" placeholder="Contact Number: " name="entry.1275224113"><br/>
+	<input type="text" placeholder="Address/Area: " name="entry.643992543"><br/>
+	<input type="text" placeholder="Food type: " name="entry.1589416596"><br/>
+	<input type="number" placeholder="Portions? " name="entry.634321161"><br/>
+	<input type="text" placeholder="Will you be giving boxes?" name="entry.2114519896"><br/>
+	<input type="text" placeholder="Validity: (dd/mm/yyyy-dd/mm/yyyy) " name="entry.1044165924"><br/>
+	<br>
+	<input type="submit" value="Submit">
+</form>
+<br>
+<h1 align="center"> Active Donor's List </h1>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQjozdyqSnlOkPdkVVb9wCHthI-PFYAJoh1LBiNWQqTPV8twOv7BA1xLN4Ahv0Cdg_pVujUcUHp8fpd/pubhtml?widget=true&amp;headers=false" width="1390" height=300 align="center"></iframe> 
