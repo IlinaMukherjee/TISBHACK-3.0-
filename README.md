@@ -1,5 +1,5 @@
 # TISB-HACKATHON-23
-FOOD WASTE MANANGEMENT SYSTEM - BBMP - Ilina Mukherjee, GRADE 8
+FOOD WASTE MANANGEMENT SYSTEM - FWMS - Ilina Mukherjee, GRADE 8
 
 Step 1: Download all the files and store them all in one directory.
 
